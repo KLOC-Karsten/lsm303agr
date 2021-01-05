@@ -1,0 +1,18 @@
+name = "lsm303agr"
+description = "Interface to the LSM303AGR acclerometer."
+version = "0.0.1"
+
+authors = ["Karsten Lüth"]
+maintainers = ["Karsten Lüth <kl@kloc-consulting.de>"]
+maintainers-logins = ["KLOC-Karsten"]
+
+licenses = ["BSD 3-Clauses"]
+
+website = "https://github.com/KLOC-Karsten/lsm303agr/"
+tags = [
+  "embedded",
+  "nostd",
+]
+
+[[depends-on]]
+hal = "^0.1.0"
